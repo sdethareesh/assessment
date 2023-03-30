@@ -5,7 +5,7 @@ from main import User, Song, MusicPlayer
 
 def test_play_song():
     user1 = User("Hareesh")
-    user2 = User("John")
+    user2 = User("abc")
     s1 = Song("s1")
     s2 = Song("s2")
     s3 = Song("s3")
