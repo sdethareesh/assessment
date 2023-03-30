@@ -37,26 +37,26 @@ class MusicPlayer:
             print()
 
 
-# user1 = User("Hareesh")
-# s1 = Song("s1")
-# s2 = Song("s2")
-# s3 = Song("s3")
-# s4 = Song("s4")
-# s5 = Song("s5")
-#
-# music_player = MusicPlayer(3)
-# music_player.play_song(user1, s1)
-# music_player.print_user_recently_played_song_map()
-# assert music_player.user_recently_played_song_map[user1][0] == s1
-# music_player.play_song(user1, s2)
-# music_player.print_user_recently_played_song_map()
-# assert music_player.user_recently_played_song_map[user1][0] == s1 and music_player.user_recently_played_song_map[user1][
-#     1] == s2
-# music_player.play_song(user1, s3)
-# q = music_player.user_recently_played_song_map[user1]
-# assert q[0] == s1
-# assert q[1] == s2
-# assert q[2] == s3
-# music_player.print_user_recently_played_song_map()
-# music_player.play_song(user1, s4)
-# music_player.print_user_recently_played_song_map()
+user1 = User("Hareesh")
+s1 = Song("s1")
+s2 = Song("s2")
+s3 = Song("s3")
+s4 = Song("s4")
+s5 = Song("s5")
+
+music_player = MusicPlayer(3)
+music_player.play_song(user1, s1)
+music_player.print_user_recently_played_song_map()
+assert music_player.user_recently_played_song_map[user1][0] == s1
+music_player.play_song(user1, s2)
+music_player.print_user_recently_played_song_map()
+assert music_player.user_recently_played_song_map[user1][0] == s1 and music_player.user_recently_played_song_map[user1][
+    1] == s2
+music_player.play_song(user1, s3)
+q = music_player.user_recently_played_song_map[user1]
+assert q[0] == s1
+assert q[1] == s2
+assert q[2] == s3
+music_player.print_user_recently_played_song_map()
+music_player.play_song(user1, s4)
+music_player.print_user_recently_played_song_map()
